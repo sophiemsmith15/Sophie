@@ -1,0 +1,334 @@
+/* Colors and Fonts */
+
+/* Burnt Sienna – #D95D39
+Golden Ochre – #D9A441  
+Warm Fuchsia – #D14A78 
+Teal Blue – #53c4cc
+Warm Olive Green – #A6A94D 
+Muted Orchid Purple – #9B5FA0 
+Dark Purple - #4f1964 */
+
+body {
+	background-color: #4f1964;
+	color: #D95D39;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500; /* Light */
+  font-size: 24px
+}
+
+div {
+  margin: 80px 0px 40px 16px;
+  padding: 0px 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between divs */
+    margin-top: 0px;
+}
+
+.grid-box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.banner-style-1 {
+        color: black;
+     display: flex;
+     width: 500px;
+    flex-direction: grid;
+    justify-content: center;
+      border: 4px dashed #D14A78;
+    border-radius: 50px;
+
+}
+.banner-style-2 {
+  color: black;
+     display: flex;
+ width: 500px;
+    justify-content: center;
+      border: 4px dashed #D14A78;
+    border-radius: 50px;
+}
+
+.banner-style-3 {
+  background-color: #f4d03f;
+    color: #4f1964;
+  font-family: "Moo Lah Lah", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+    border: 4px dashed #D14A78;
+    border-radius: 50px;
+  
+}
+
+.banner-style-4 {
+    border: 4px dashed #D14A78;
+    border-radius: 50px;
+    background-color: #D14A78 ; 
+    font-size: 24px; /* Adjust size */
+    margin-right: 10px; /* Space between icon and text */
+    color: #D14A78; /* Change color */
+    width: 300px; /* Set specific width */
+    height: auto; /* Adjust height automatically */
+      display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center; /* Centers horizontally */
+    width: fit-content; /* Adjusts to content width */
+    margin: auto; /* Centers the div itself */
+
+}
+
+
+.text-banner { /* Sophie Title and Personality Types TItle */
+      border: 4px dashed #D14A78;
+    border-radius: 50px;
+    background-color: #A6A94D ; /* Yellow background */
+    padding: 20px; /* Adds spacing inside */
+    border-radius: 10px; /* Rounds corners */
+    text-align: center; /* Centers text inside */
+     display: flex;
+    flex-direction: grid;
+    justify-content: center;
+    align-items: center;
+    }
+
+/* This centers the banner on the left side of the screen */
+.banner-container {
+    display: grid;
+    height: 100vh; /* Full screen height */
+    align-items: center; /* Centers vertically */
+    justify-content: start; /* Aligns content to the left */
+    margin-left: 0vh;
+    margin-right: 200vh;
+    padding-left: 10vw; /* Moves the banner a little to the right */
+}
+
+/* headings for blocking */
+.banner-text {
+    
+    background-color: #95dadf; /* Yellow background */
+    padding: 20px; /* Adds spacing inside */
+    border-radius: 10px; /* Rounds corners */
+    color: #D14A78;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;/* Fixed width for banner */
+    text-align: center;   
+}
+
+#total-who-am-is {                        /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.banner {
+    width: 100%;
+    min-height: 250px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Helps maintain layout */
+}
+
+
+.banner-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+	img.profile-image: hover {
+		transform: rotate(360deg);
+		transition: transform 1.5s ease;
+		content: url("images/vache cute.jpg");
+    margin-bottom: 0px;
+	}
+
+  .img-circle {
+    max-width: 500px; /* Adjust size */
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0px;
+ display: block; /* Ensures it behaves properly */
+    margin: 0 auto;
+    margin-bottom: 0px;  }
+
+	.glowy-box {
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(0px 0px 20px #53c4cc) drop-shadow(0px 0px 40px #A6A94D);
+    display: block; /* Ensures it behaves properly in layout */
+    width: 300px; /* Adjust size if needed */
+    margin-bottom: 0px;
+}
+
+.bordered-image {
+	border: 10px solid Teal;
+}
+
+.text-block { /*psych */
+    border: 4px dashed #D14A78;
+    border-radius: 50px;
+
+    background-color: #95dadf  ;
+    padding: 15px;
+       color: #D14A78;
+   width: auto;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+      align-items: center;
+    text-align: center;
+}
+
+	#Face {
+  		width: 250px;
+  		height: auto;
+  		border-radius: 200px;
+      margin-bottom: 0px;
+		}
+
+	#discocow {
+		width: 250px;
+  		height: auto;
+  		border-radius: 200px
+	}
+
+	#flower {
+		width: 250px;
+		height: auto;
+    border-radius: 150px;
+	}
+
+	#flower2 {
+		width: 250px;
+		height: auto;
+    border-radius: 150px;
+	}
+
+	#disco {
+		width: 250px;
+		height: auto;
+    align-items: center;
+  margin: 0 auto;
+    border-radius: 150px;
+	}
+
+	#cutediscocow {
+		width: 250px;
+  		height: auto;
+  		display: block;
+      border-radius: 150px;
+    margin: 0 auto;
+	}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+
+.container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1 {
+	color: #4f1964;
+  font-family: "Moo Lah Lah", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+
+h2 {
+	color: #D14A78;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h3 { /*personality type titles */
+	color: #4f1964;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h4 { /* follow me */
+	color: #4f1964; 
+	 font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px
+}
+
+h5 {
+	color: #9B5FA0;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 17px
+}
+
+ul li a i {
+    font-size: 24px; /* Adjust size */
+    margin-right: 10px; /* Space between icon and text */
+    color: #D14A78; /* Change color */
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#particles-js {
+    position: fixed;  /* Ensures it stays in place */
+    top: 0;
+    left: 0;
+    width: 100vw;  /* Full width */
+    height: 100vh; /* Full height */
+    z-index: -1;   /* Puts it behind other content */
+
+}
+.story-button {
+    display: inline-block; /* Makes it behave like a button */
+    background-color: #D14A78; /* Cute pink button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adds space inside */
+    border-radius: 25px; /* Soft, rounded edges */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text stand out */
+    font-size: 30px; /* Readable size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.story-button:hover {
+    background-color: #B83760; /* Slightly darker pink on hover */
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+background-image: url('images/background.jpg');
